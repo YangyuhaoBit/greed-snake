@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.score{
+    width: 400px;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+#game{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 1px solid;
+    margin: 30px auto;
+}
+.sBody{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -100px;
+    border: 1px solid white;
+    background: skyblue;
+}
+.sBody:first-child{
+    background-color: cornflowerblue;
+}
+.dot{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: hotpink;
+    border-radius: 10px;
+}
+#start{
+    margin: 10px auto;
+    width: 40px;
+    display: block;
+}
+.result{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    color: palevioletred;
+    text-align: center;
+}
